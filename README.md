@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-PT" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensus OEE | Excelência Industrial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { background-color: #020617; color: #f1f5f9; }
+        .gradient-text { background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass { background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+        .whatsapp-float { position: fixed; bottom: 30px; right: 30px; z-index: 100; }
+    </style>
+</head>
+<body class="font-sans antialiased">
+
+    <a href="https://wa.me/5524998453342?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20da%20Sensus%20OEE." target="_blank" class="whatsapp-float bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg transition-transform hover:scale-110">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <nav class="sticky top-0 z-50 p-6 flex justify-between items-center glass border-b border-slate-800">
+        <div class="text-2xl font-bold tracking-tighter text-white flex items-center gap-2">
+            <i class="fa-solid fa-gears text-cyan-500"></i> SENSUS <span class="text-cyan-500">OEE</span>
+        </div>
+        <div class="space-x-6 text-sm font-medium text-slate-400">
+            <a href="#servicos" class="hover:text-cyan-400 transition">Serviços</a>
+            <a href="#manifesto" class="hover:text-cyan-400 transition">Manifesto & Missão</a>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto p-6 space-y-24 mt-12">
+        
+        <section id="inicio" class="text-center py-16">
+            <div class="mb-6 animate-pulse">
+                <i class="fa-solid fa-gears text-6xl text-cyan-500"></i>
+            </div>
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 gradient-text">A Inteligência que move a sua fábrica.</h1>
+            <p class="text-xl text-slate-400 max-w-2xl mx-auto">Transformamos ineficiências em rentabilidade através de tecnologia de monitoramento de classe mundial.</p>
+        </section>
+
+        <section id="servicos">
+            <h2 class="text-3xl font-bold text-white mb-12 text-center">Nossos Serviços</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass p-8 rounded-2xl border-t-4 border-cyan-500">
+                    <i class="fa-solid fa-gauge-high text-cyan-500 text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Monitoramento OEE</h3>
+                    <p class="text-slate-400 text-sm">Visibilidade total sobre disponibilidade, performance e qualidade em tempo real.</p>
+                </div>
+                <div class="glass p-8 rounded-2xl border-t-4 border-blue-500">
+                    <i class="fa-solid fa-microchip text-blue-500 text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Inteligência de Dados</h3>
+                    <p class="text-slate-400 text-sm">Análise preditiva para antecipar paradas e eliminar desperdícios ocultos.</p>
+                </div>
+                <div class="glass p-8 rounded-2xl border-t-4 border-indigo-500">
+                    <i class="fa-solid fa-chart-line text-indigo-500 text-3xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Otimização Contínua</h3>
+                    <p class="text-slate-400 text-sm">Consultoria estratégica focada em elevar o ROI do seu chão de fábrica.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="manifesto" class="glass p-12 rounded-3xl text-center">
+            <h2 class="text-3xl font-bold mb-8 text-white flex items-center justify-center gap-3">
+                <i class="fa-solid fa-gears text-cyan-500"></i> Manifesto & Missão
+            </h2>
+            <p class="text-2xl leading-relaxed text-slate-200 italic max-w-3xl mx-auto">
+                "Iluminar o chão de fábrica através da tecnologia. Nossa missão é capacitar indústrias a atingirem a máxima performance, tornando o invisível em dados tangíveis para uma gestão de excelência."
+            </p>
+        </section>
+    </main>
+
+    <footer class="py-12 text-center text-slate-600 border-t border-slate-800 mt-24">
+        <p>© 2026 Sensus OEE – A tecnologia a serviço da eficiência.</p>
+    </footer>
+</body>
+</html>
